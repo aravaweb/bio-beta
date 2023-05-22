@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>SIS Bio Bank | </title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body onload="displayDate()">
+      <section id="header-nav">
+            <header>
+                  <a href="#"><img src="images/logo.png" alt="BioHub" class="logo"></a>
+                  <nav>
+                        <ul>
+                              <li><a href="#"><b>Home</b></a></li>
+                              <li><a href="about.html">About</a></li>
+                              <li class="currentClass">class</li>
+                        </ul>
+                  </nav>
+            </header>
+      </section>
+
+
+      <section id="majorScreen">
+            <section class="sidebar">
+                  <div class="user-name">
+                        <img src="images/username.png" class="user-name">
+                  </div>
+                  <div class="sideButtons">
+                        <center>
+                              <button class="sidebarbtns"><b>Dashboard</b></button>
+                              <button class="sidebarbtns">Chat</button>
+                              <button class="sidebarbtns">Resources</button>
+                              <button class="sidebarbtns">Question Bank</button>
+                        </center>
+                  </div>
+            </section>
+            <section class="content">
+                  <div class="announcements">
+                        <h1 class="announcements-text">Announcements:</h1><p></p>
+                  </div>
+
+                  <center>
+                        <h1 class="clock" id='clock'>
+                              Clock is loading...
+                        </h1>
+                        <p id="date" class="date">
+                              
+                        </p>
+                        <section id="quickOptions">
+                              <img src="images/quickoption.png" class="quickoptionimg">
+                               <img src="images/quickoption.png" class="quickoptionimg">
+                                <img src="images/quickoption.png" class="quickoptionimg">
+                                 <img src="images/quickoption.png" class="quickoptionimg">
+                        </section>
+                  </center>
+            </section>
+            
+      </section>
+      
+</body>
+<script type="text/javascript" src="js/clock.js"></script>
+<script type="text/javascript" src="js/date.js"></script>
+</html>

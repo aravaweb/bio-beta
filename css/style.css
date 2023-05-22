@@ -1,0 +1,127 @@
+body {
+      margin: 0 30px;
+      font-family: 'Josefin Sans', sans-serif;
+      background-color: #FAFAFA;
+}
+header {
+      display: flex;
+      justify-content: space-between;
+      background-color: #FAFAFA;
+  text-align: center;
+  width: 100%;
+  height: 65px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+
+}
+ul li {
+      display: inline-block;
+      margin-right: 34px;
+      margin-top: 3px;
+}
+ul li a {
+      color: #000000;
+      list-style: none;
+      font-size: 16px;
+      text-decoration: none;
+
+}
+ul li a:hover {
+      color: #584EFF;
+      list-style: none;
+      font-size: 16px;
+      text-decoration: none;
+
+}
+.logo {
+      width: 130px;
+      margin-left: 30px;
+}
+.currentClass {
+      background-color: #EFCEFA;
+      color: #000;
+      padding: 10px 20px 10px 20px;
+      text-align: center;
+      border-radius: 30px;
+      font-size: 20px;
+}
+#majorScreen {
+      display: flex;
+      margin-left: -30px;
+      height: 100%;
+}
+.sidebar {
+      background-color: #5D4E60;
+      width: 20%;
+      height: 100vh;
+      margin: 0;
+}
+.content {
+       background-color: #BD9BC1;
+      width: 100%;
+      min-height: 100%;
+      margin-right: -30px;
+}
+#header-nav {
+      z-index: 1;
+      position: fixed;
+      width: 100%;
+      margin-left: -30px;
+}
+.user-name {
+      width: 100%;
+      height: 35px;
+      margin-top: 32px;
+}
+.sideButtons {
+      margin-top: 100px;
+}
+.sidebarbtns {
+      width: 170px;
+      font-size: 20px;
+      height: 40px;
+      align-content: center;
+      color: #4E2484;
+      background-color: #D4B2D8;
+      border-radius: 30px;
+      border-color: transparent;
+      margin-top: 30px;
+      transition: 0.16s;
+}
+.sidebarbtns:hover {
+      width: 180px;
+      font-size: 22px;
+      background-color: #EFCEFA;
+}
+.announcements {
+      background-color: #EFCEFA;
+      width: 100%;
+      margin-top: 65px;
+}
+.announcements-text {
+      font-size: 23px;
+      height: 34px;
+      color: #735555;
+      margin: 10px;
+      font-family: 'Josefin Sans', sans-serif;
+}
+.clock {
+      font-size: 70px;
+      margin-top: 125px;
+      font-family: 'Play', sans-serif;
+      color: #f5f5f5;
+}
+.date {
+      font-size: 25px;
+      margin-top: -60px;
+      color: #f5f5f5;
+}
+#quickOption {
+
+}
+.quickoptionimg {
+      width: 140px;
+      margin-top: 80px;
+      margin-right: 60px;
+}
